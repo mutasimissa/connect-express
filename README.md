@@ -62,7 +62,7 @@ router.use('/hello', helloAPI);
 ```
 ### Test in Docker
 ```
-docker run -p 5000:3000 mutasimissa/connect-express
+docker run -p 3000:3000 mutasimissa/connect-express
 ```
 
 
