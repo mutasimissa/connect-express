@@ -1,3 +1,11 @@
+### Docker
+![Docker Image Version (latest by date)](https://img.shields.io/docker/v/mutasimissa/connect-express?arch=amd64&sort=date)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/mutasimissa/connect-express)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/mutasimissa/connect-express)
+```
+docker run -p 3000:3000 mutasimissa/connect-express
+```
+
 ### Development
 #### Prepare Development Environment
 - Node and npm should be installed
@@ -59,10 +67,6 @@ const helloAPI = require('./helloAPI')
 router.use('/hello', helloAPI);
 
 (...)
-```
-### Test in Docker
-```
-docker run -p 3000:3000 mutasimissa/connect-express
 ```
 
 
